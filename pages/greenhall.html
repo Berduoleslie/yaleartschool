@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yale School of Arts</title>
+    
+    <!-- Google Fonts-->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!--css-->
+    <link href="css/reset.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/pages.css">
+    <!-- -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.js"></script>
+    
+</head>
+<body>
+   <div class="top-bar">
+       <span></span>
+       <ul>
+           <li><a href="#"><ion-icon name="search-outline"></ion-icon></a></li>
+           <li><a href="https://www.facebook.com/YaleSchoolofArt/"><ion-icon name="logo-facebook"></ion-icon></a></li>
+           <li><a href="https://www.instagram.com/yaleschoolofart/"><ion-icon name="logo-instagram"></ion-icon></a></li>
+           <li><a href="https://www.linkedin.com/school/yale-university/people/"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+       </ul>
+   </div>
+   
+   <nav >
+       <section class="logo">
+       <a href="../index.html"><img src="../images/Yale%20Logo.png" alt="logo"></a>
+       </section>
+       <div class="toggle">
+           <a href="#"><ion-icon name="menu-outline"></ion-icon></a> </div>
+       <ul class="menu">
+           <li><a href="../pages/about.html">About</a></li>
+           <li><a href="../pages/students.html">Students</a></li>
+           <li><a href="../pages/campus.html">Campus</a></li>
+           <li><a href="../pages/events.html">Event</a></li>
+           <li><a href="../pages/enroll.html">Enroll</a></li>
+       </ul>
+   </nav>
+   
+  <main>
+       <div class="hall">
+    <img src="https://news.yale.edu/sites/all/themes/yalenews/images/yale_og.jpg"  class"us"  alt="greenhall">
+  </div>
+  <section>
+    <div>
+      <h1>DARKROOMS: GENERAL INFORMATION</h1>
+      <p>The Yale University, School of Art Darkroom facilities are open to undergraduate or graduate student currently enrolled in the Photography Department program of study.
+
+The Undergraduate Lab consists of two multi-station B&W gang labs, finishing areas and several private multi-purpose darkrooms. There is also one 10 station digital lab for Intermediate and Advanced level classes. This lab contains Epson ink jet printers and several flat-bed scanning stations. Undergraduates enrolled in Intermediate and Advanced level classes have access to the labs during open hours.</p>
+    </div>
+    <div class="preparation-time">
+      <h2>DARKROOM HOURS</h2>
+      <ul>
+        <li><span>Monday through Thursday: </span>10:00am -11:00</li>
+        <li><span>Friday/Saturday: </span>Closed</li>
+        <li><span>Sunday </span>Noon-11:00pm</li>
+      </ul>
+    </div>
+  </section>
+  <section>
+    <h2>Intro Photo Camera Loans</h2>
+    <ul>
+      <li>Only Yale School of Art Undergraduate students currently enrolled in a Photography course may check out equipment. Student auditors must provide their own equipment for Photography classes.</li>
+      <li>Faculty who need to borrow equipment should consult Benjamin Donaldson in Room G47 to make a special arrangement.
+
+</li>
+      <li>Faculty who need to borrow equipment should consult Benjamin Donaldson in Room G47 to make a special arrangement.
+
+</li>
+      <li>All equipment must be signed out and returned to Green Hall, room G47.</li>
+      <li>For assistance, or for matters regarding borrowed equipment, please contact:Yale School of Art, Darkroom 1156 Chapel Street, Room G47 203.432.2611
+benjamin.donaldson@yale.edu</li>
+    </ul>
+  </section>
+
+  <hr>
+      
+      
+  </main>
+  <footer>
+       <div class="bottom-bar">
+       <span></span>
+       <ul>
+           
+           <li><a href="https://www.linkedin.com/school/yale-university/people/"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+           <li><a href="https://www.facebook.com/YaleSchoolofArt/"><ion-icon name="logo-facebook"></ion-icon></a></li>
+           <li><a href="https://www.instagram.com/yaleschoolofart/"><ion-icon name="logo-instagram"></ion-icon></a></li>
+       </ul>
+       <p class="lulu" > Connect with us on social media </p>
+
+   </div>
+     <!-- Rights-->
+    <p class="rights"><span>©  </span><span class="copyright-year">2024</span><span> </span><span>Yale University</span><span> - </span><span>All Rights Reserved.</span></p>
+
+   
+       
+   </footer>
+   
+   
+ 
+   
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+   
+   <script>
+    
+    $(function(){
+      $(".toggle").on("click", function(){
+        if($(".menu").hasClass("active")){
+          $(".menu").removeClass("active");
+          $(this).find("a").html("<ion-icon name='menu-outline'></ion-icon>");
+    } else{
+        $(".menu").addClass("active");
+        $(this).find("a").html("<ion-icon name='close-outline'></ion-icon>");
+    }
+      
+    });
+    
+    </script>
+   
+    
+</body>
+</html>
